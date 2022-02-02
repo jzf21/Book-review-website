@@ -178,7 +178,7 @@ body {
       
 #review-title{
   display: inline;
-  position: absolute;
+  position:relative;
   font-size: 40px;
   color:#789696;
   font-weight: 600;
@@ -186,8 +186,12 @@ body {
   margin-bottom: 40px;
   z-index: 2;
   padding-bottom: 20px;
+  top:0;
   
 
+}
+#review-title h1{
+  margin-left: 10vh;
 }
 .container2{
   display: flex;
